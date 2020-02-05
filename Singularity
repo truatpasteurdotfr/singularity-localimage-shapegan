@@ -19,7 +19,7 @@ python3 -m pip install \
 
 # missing X11?
 yum -y update
-yum -y install libX11 libXext libglvnd-glx libSM libXrender libX11-devel nano, git zip unzip
+yum -y install libX11 libXext libglvnd-glx libSM libXrender libX11-devel nano git zip unzip
  
 %environment
 PATH=/opt/miniconda3/bin:$PATH
